@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="top">
+  <h1 class="top-ttl">キャッチコピー</h1>
+  <h2 class="top__ttl-wrap">About</h2>
+  <p>プCOACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
+  プログラミング未経験の方でも、<span>「独自の学習ノウハウ」</span>でフリーランスエンジニアを目指すことができます。</p>
+</div>
+<div class="blog">
+  <h2 class="top__ttl-wrap">ブログ</h2>
+  <div class="blog__img-eyecatch"><img src="./img/blog__eyecatch1.jpg">
+  </div>
+  <h3>コーチテックブログのタイトルがここに入ります。</h3>
+  <div class="blog__img-eyecatch"><img src="./img/blog__eyecatch2.jpg">
+  </div>
+  <h3>コーチテックブログのタイトルがここに入ります。</h3>
+  <div class="blog__img-eyecatch"><img src="./img/blog__eyecatch3.jpg">
+  </div>
+  <h3>コーチテックブログのタイトルがここに入ります。</h3>
+</div>
+<div class="contact">
+  <h2 class="top__ttl-wrap">問い合わせ</h2>
+  <div class="form">
+    <form class="form__list" name="contact" method="POST">
+      <div class="form-item">
+        <p class="form-item-label">名前</p>
+        <input type="text" name="name" class="form-item-input" >
+        </div>
+      <div class="form-item">
+        <p class="form-item-label">メールアドレス</p>
+        <input type="email" name="email" class="form-item-input">
+        </div>
+      <div class="form-item">
+        <p class="form-item-label">用件</p>
+        <!-- <input type="Requirements" name="Requirements"> -->
+        <select type="Requirements" name="Requirements">
+          <option>広告掲載について</option>
+        </select>
+      </div>
+      <div class="form-item">
+        <p class="form-item-label">内容</p>
+        <textarea name="textarea" class="form-item-textarea"></textarea>
+    </div><!--  form__list終わり -->
+      <div class="form-item">
+        <input type="submit" class="form-btn" value="送信">
+        <input type="submit" class="form-btn" value="削除">
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
